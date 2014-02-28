@@ -1,0 +1,13 @@
+<h1 class='headline'>
+  {{post.title}}
+  <div ng-show='isOwner()' class='pull-right'>
+    <a ng-href="/posts/{{post.id}}/edit" class='btn btn-md btn-warning'><span class='glyphicon glyphicon-pencil'></span></a>
+    <button ng-click='delete()' class='btn btn-md btn-danger'><span class='glyphicon glyphicon-trash'></span></button>
+  </div>
+</h1>
+
+<p class='byline'>
+  by {{owner.name}}
+</p>
+
+<pre>{{post.body}}</pre>

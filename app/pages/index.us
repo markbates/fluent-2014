@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FluentConf</title>
+
+  <link rel="stylesheet" type="text/css" href="/css/app.css" media="all" />
+</head>
+<body ng-app='app' ng-controller='AppController'>
+
+<div class='main container' ng-controller='AuthController'>
+  <div ng-include="'_header.html'"></div>
+  <ng-view></ng-view>
+</div>
+
+  <script type="text/javascript" src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<h1>Posts</h1>
+
+<table class='table table-striped' ng-init="predicate='created_at'; reverse = true">
+  <thead>
+    <tr>
+      <th><a href='' ng-click="predicate='title'; reverse=!reverse">Title</a></th>
+      <th><a href='' ng-click="predicate='created_at'; reverse=!reverse">Date</a></th>
+    </tr>
+  </thead>
+  <tr ng-repeat='post in posts | orderBy:predicate:reverse'>
+    <td>
+      <a ng-href='/posts/{{post.id}}'>{{post.title}}</a>
+    </td>
+    <td>
+      {{post.created_at | date: 'short'}}
+    </td>
+  </tr>
+</table>
