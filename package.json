@@ -8,7 +8,7 @@
     "company": "ACME, Inc."
   },
   "devDependencies": {
-    "lineman": "~0.24.9",
+    "lineman": "~0.27.2",
     "lineman-angular": "~0.1.1"
   },
   "scripts": {
