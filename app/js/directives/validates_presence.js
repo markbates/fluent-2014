@@ -1,4 +1,4 @@
-angular.module('app').directive('validatesPresence', function() {
+App.directive('validatesPresence', function() {
   return {
     link: function(scope, elem, attrs) {
       scope.$on('validate-form', function(form) {

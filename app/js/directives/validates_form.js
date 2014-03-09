@@ -1,4 +1,4 @@
-angular.module('app').directive('validatesForm', function() {
+App.directive('validatesForm', function() {
   return {
     link: function(scope, elem, attrs) {
       form = $(elem);

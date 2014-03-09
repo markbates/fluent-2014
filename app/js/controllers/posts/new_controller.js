@@ -1,4 +1,4 @@
-angular.module('app').controller('PostsNewController', function($scope, $location, Post) {
+App.controller('PostsNewController', function($scope, $location, Post) {
 
   $scope.post = new Post();
 

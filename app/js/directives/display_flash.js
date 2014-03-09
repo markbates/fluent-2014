@@ -1,4 +1,4 @@
-angular.module('app').directive('displayFlash', function() {
+App.directive('displayFlash', function() {
   return {
     restrict: 'E',
     templateUrl: '_flash.html',

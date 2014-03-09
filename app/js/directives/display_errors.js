@@ -1,4 +1,4 @@
-angular.module('app').directive('displayErrors', function() {
+App.directive('displayErrors', function() {
   return {
     restrict: 'E',
     templateUrl: '_errors.html',

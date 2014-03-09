@@ -1,4 +1,4 @@
-angular.module('app').controller('AuthController', function($scope, $cookieStore, Auth) {
+App.controller('AuthController', function($scope, $cookieStore, Auth) {
 
   $scope.user = null;
 

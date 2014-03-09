@@ -1,4 +1,4 @@
-angular.module('app').controller('PostsShowController', function($scope, $routeParams, $location, Post, User) {
+App.controller('PostsShowController', function($scope, $routeParams, $location, Post, User) {
 
   loadPost = function() {
     success = function() {
