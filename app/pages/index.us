@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app='app'>
+<html ng-app>
 <head>
   <title>FluentConf</title>
 
